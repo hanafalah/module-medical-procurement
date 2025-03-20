@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Zahzah\ModuleMedicalProcurement\Providers;
+namespace Hanafalah\ModuleMedicalProcurement\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Zahzah\ModuleMedicalProcurement\Commands as Commands;
+use Hanafalah\ModuleMedicalProcurement\Commands as Commands;
 
 class CommandServiceProvider extends ServiceProvider
 {

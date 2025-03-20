@@ -1,20 +1,20 @@
 {
-  "name": "zahzah/module-medical-procurement",
+  "name": "hanafalah/module-medical-procurement",
   "type": "library",
   "require": {
-    "zahzah/laravel-support": "1.x",
-    "zahzah/module-transaction": "1.x",
-    "zahzah/module-procurement": "1.x"
+    "hanafalah/laravel-support": "1.x",
+    "hanafalah/module-transaction": "1.x",
+    "hanafalah/module-procurement": "1.x"
   },
   "autoload": {
     "psr-4": {
-      "Zahzah\\ModuleMedicalProcurement\\": "src/"
+      "Hanafalah\\ModuleMedicalProcurement\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Zahzah\\ModuleMedicalProcurement\\ModuleMedicalProcurementServiceProvider"
+        "Hanafalah\\ModuleMedicalProcurement\\ModuleMedicalProcurementServiceProvider"
       ]
     }
   },

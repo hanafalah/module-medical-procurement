@@ -1,8 +1,8 @@
 <?php
 
-namespace Zahzah\ModuleMedicalProcurement;
+namespace Hanafalah\ModuleMedicalProcurement;
 
-use Zahzah\LaravelSupport\Providers\BaseServiceProvider;
+use Hanafalah\LaravelSupport\Providers\BaseServiceProvider;
 
 class ModuleMedicalProcurementServiceProvider extends BaseServiceProvider
 {
@@ -12,7 +12,7 @@ class ModuleMedicalProcurementServiceProvider extends BaseServiceProvider
      * @return void
      */
     public function register()
-    {        
+    {
         $this->registerMainClass(ModuleMedicalProcurement::class)
             ->registerCommandService(Providers\CommandServiceProvider::class)
             ->registers([

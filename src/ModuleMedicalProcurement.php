@@ -1,8 +1,8 @@
 <?php
 
-namespace Zahzah\ModuleMedicalProcurement;
+namespace Hanafalah\ModuleMedicalProcurement;
 
-use Zahzah\ModuleMedicalProcurement\Contracts\ModuleMedicalProcurement as ContractsModuleMedicalProcurement;
-use Zahzah\LaravelSupport\Supports\PackageManagement;
+use Hanafalah\ModuleMedicalProcurement\Contracts\ModuleMedicalProcurement as ContractsModuleMedicalProcurement;
+use Hanafalah\LaravelSupport\Supports\PackageManagement;
 
 class ModuleMedicalProcurement extends PackageManagement implements ContractsModuleMedicalProcurement {}

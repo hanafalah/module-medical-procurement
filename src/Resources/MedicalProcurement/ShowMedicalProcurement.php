@@ -1,8 +1,8 @@
 <?php
 
-namespace Zahzah\ModuleMedicalProcurement\Resources\MedicalProcurement;
+namespace Hanafalah\ModuleMedicalProcurement\Resources\MedicalProcurement;
 
-use Zahzah\ModuleProcurement\Resources\Procurement\ShowProcurement;
+use Hanafalah\ModuleProcurement\Resources\Procurement\ShowProcurement;
 
 class ShowMedicalProcurement extends ShowProcurement
 {
@@ -19,7 +19,7 @@ class ShowMedicalProcurement extends ShowProcurement
         ];
 
         $arr = $this->mergeArray(parent::toArray($request), $arr);
-        
+
         return $arr;
     }
 }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Zahzah\ModuleMedicalProcurement\Commands;
+namespace Hanafalah\ModuleMedicalProcurement\Commands;
 
-use Zahzah\LaravelSupport\Concerns\ServiceProvider\HasMigrationConfiguration;
+use Hanafalah\LaravelSupport\Concerns\ServiceProvider\HasMigrationConfiguration;
 
-class EnvironmentCommand extends \Zahzah\LaravelSupport\Commands\BaseCommand
+class EnvironmentCommand extends \Hanafalah\LaravelSupport\Commands\BaseCommand
 {
     use HasMigrationConfiguration;
 

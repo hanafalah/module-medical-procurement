@@ -1,7 +1,7 @@
 <?php
 
-use Zahzah\ModuleMedicalProcurement\Models\Procurement\MedicalProcurement;
-use Zahzah\ModuleProcurement\Commands;
+use Hanafalah\ModuleMedicalProcurement\Models\Procurement\MedicalProcurement;
+use Hanafalah\ModuleProcurement\Commands;
 
 return [
     'commands' => [

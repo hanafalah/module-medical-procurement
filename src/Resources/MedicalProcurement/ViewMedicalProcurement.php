@@ -1,8 +1,8 @@
 <?php
 
-namespace Zahzah\ModuleMedicalProcurement\Resources\MedicalProcurement;
+namespace Hanafalah\ModuleMedicalProcurement\Resources\MedicalProcurement;
 
-use Zahzah\ModuleProcurement\Resources\Procurement\ViewProcurement;
+use Hanafalah\ModuleProcurement\Resources\Procurement\ViewProcurement;
 
 /**
  * Class ViewMedicalProcurement
@@ -25,8 +25,8 @@ class ViewMedicalProcurement extends ViewProcurement
         $arr = [
             'medical_procurement_code' => $this->medical_procurement_code
         ];
-        $arr = $this->mergeArray(parent::toArray($request),$arr);
-        
+        $arr = $this->mergeArray(parent::toArray($request), $arr);
+
         return $arr;
     }
 }
